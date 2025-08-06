@@ -1,0 +1,37 @@
+<div class="modal fade" id="seriesDetailModal" tabindex="-1" aria-labelledby="seriesDetailModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header py-2 px-3">
+                <h5 class="modal-title fs-5" id="seriesDetailModalLabel">Series Details <span id="modalSeriesName"></span></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-3">
+                <div id="modalChartContainer" style="width: 100%; height: 400px; margin-bottom: 10px;"></div> 
+
+                <p class="mb-2"><strong>ID:</strong> <span id="modalSeriesId"></span></p>
+                <p class="mb-2"><strong>Frequency:</strong> <span id="modalFrequency"></span></p>
+
+                <div id="industryDetailsSection">
+                    <p class="mb-2"><strong>Block Name:</strong> <span id="modalBlockName"></span></p>
+                    <p class="mb-2"><strong>Last Checked:</strong> <span id="modalLastChecked"></span></p>
+                    <p class="mb-2"><strong>Last Recorded:</strong> <span id="modalLastRecorded"></span></p>
+                    <p class="mb-2"><strong>Last Updated:</strong> <span id="modalLastUpdated"></span></p>
+                </div>
+
+                <hr class="my-2">
+
+                <div id="forecastsSection">
+                    <h6 class="mb-1">Forecasts:</h6> 
+                    <small class="text-muted mb-2 d-block">Ctrl/Cmd + click to select multiple to display. Press "Close & Save Changes" to display selected forecasts on the main chart.</small> 
+                    <div id="forecastsListContainer" style="max-height: 120px; overflow-y: auto;">
+                        <ul class="list-group list-group-flush" id="forecastsList">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer py-2 px-3">
+                <button type="button" class="btn btn-secondary btn-md" id="saveChangesButton" data-bs-dismiss="modal">Close & Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
