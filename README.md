@@ -43,8 +43,9 @@ industry-data-visualizer/
 │       ├── dataFetch.js
 │       ├── main.js
 │       └── state.js
-├── index.html
-└── README.md
+├── LICENSE
+├── README.md
+└── index.html
 
 ```
 
@@ -76,3 +77,17 @@ As part of the project's design phase, several features were included as visual 
 - **Industry Model Dropdown:** A component for selecting different industry models.
 - **Data Management Buttons:** Save, Save as, Share, and Download (Data) buttons.
 - **Global Search:** "Search All" dropdown in "Edit Chart" sidebar - a feature that will search for specific data series across all industry models and fred sectors. 
+
+---
+## 🧾 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Maintainer
+
+Drae Angela Vizcarra
+GitHub: [@draeangela](https://github.com/draeangela)
+
+
+
