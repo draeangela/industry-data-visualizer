@@ -9,6 +9,7 @@ This dashboard is designed to connect with two primary data sources:
 2.  **External Economic Data:** The application integrates directly with the **Federal Reserve Economic Data (FRED) API** to retrieve a comprehensive range of macroeconomic indicators.
 
 ## 🦾 Tech Stack
+- Python
 - Javascript
 - Apache ECharts
 - HTML & CSS
@@ -43,7 +44,11 @@ industry-data-visualizer/
 
 ## 🧪 Running the App
 
-### 1. Start server
+### 1. Install Python
+
+If you do not have Python installed, you can download it from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+### 2. Start server
 
 At the root of the directory, run:
 
@@ -52,9 +57,9 @@ py -m http.server 9080
 ```
 
 This will open the app in the browser at:
-
 ```
 http://localhost:9080
+
 ```
 
 ### Placeholder & Planned Features
