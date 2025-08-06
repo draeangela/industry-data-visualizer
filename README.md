@@ -67,5 +67,5 @@ http://localhost:9080
 As part of the project's design phase, several features were included as visual placeholders to support future development. These features were not implemented but were designed to be part of the final product:
 
 - **Industry Model Dropdown:** A component for selecting different industry models.
-- **Data Management Buttons:** Save, Save as, Share, and Download (Data) buttons
+- **Data Management Buttons:** Save, Save as, Share, and Download (Data) buttons.
 - **Global Search:** "Search All" dropdown in "Edit Chart" sidebar - a feature that will search for specific data series across all industry models and fred sectors. 
