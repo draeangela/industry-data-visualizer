@@ -59,7 +59,6 @@ py -m http.server 9080
 This will open the app in the browser at:
 ```
 http://localhost:9080
-
 ```
 
 ### Placeholder & Planned Features
