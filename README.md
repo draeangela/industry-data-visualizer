@@ -2,7 +2,10 @@
 
 This project provides an interactive data visualization dashboard developed for **ARGA Investment Management, LP.** The platform is designed to empower analysts by visualizing both historical and forecasted data from **internal company sources** and the **Federal Reserve Economic Data (FRED) API.** The dashboard supports the analysis of various time series, allowing for the plotting of multiple datasets in a single, unified view. Key features include highly customizable filtering options, enabling analysts to efficiently compare and analyze data for in-depth market analysis and strategic planning.
 
-file:///C:/Users/dvizcarra/Pictures/Screenshots/Screenshot%202025-08-08%20150314.png
+<img width="1917" height="1163" alt="Screenshot 2025-08-08 150134" src="https://github.com/user-attachments/assets/99bf079e-c23c-4ed9-9729-1e7516a2b2ab" />
+<img width="1871" height="1099" alt="Screenshot 2025-08-08 150333" src="https://github.com/user-attachments/assets/8bc9ef1c-e719-47c1-8106-62b55402dd87" />
+<img width="1913" height="1125" alt="Screenshot 2025-08-08 150314" src="https://github.com/user-attachments/assets/60ddb277-aa67-40c9-bcb0-0df892626ea6" />
+
 ---
 
 ## 📄 Data Sources
